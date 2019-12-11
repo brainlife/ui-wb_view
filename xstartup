@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#should I do this on startvnc?
+vglclient &
+
+cd /input
+vglrun wb_view -window-size 1200 800 $(find -name "*.gii")
